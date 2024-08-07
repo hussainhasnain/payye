@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon.png">
+
+    <!--============ Our Main Font (Roboto) ========= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!--============ Remixicons ========= -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+
+    <!--============ Date Range Calendar CSS Links  ========= -->
+    <link rel="stylesheet" href="css/daterange/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/daterange/jquery.comiseo.daterangepicker.css">
+
+    <!--============ Swiper CSS Link  ========= -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+   
+    
+
+    <!-- Tipyy CSS -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/tippy.js@6/animations/shift-away.css"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       
+    <!--============ Main Stylesheet Link ========= -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Payye</title>
+</head>
+<body>
+    
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+
+    <!-- Mobile Navigation header starts -->
+        <div class="mobileNav">
+            
+               
+                    <!-- Mobile Nav Logo -->
+                    <div class="mobileNav__logo">
+                        <img src="img/logo/logo-white.webp" alt="logo" class="mobileNav__logo--img">
+                    </div>
+                    <!-- Mobile Nav Button -->
+                     <div class="mobileNav__button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="bar-chart2" class="lucide lucide-bar-chart2 icon__hamburger mobileNav__button--icon"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg>
+                     </div>
+                
+            
+        </div>
+     <!-- Mobile Navigation header Ends -->
+   <main class="payye">
+        
+        <div class="payye__row">
+            <div class="payye__content">
+                <!-- Sidebar Starts -->
+                <nav class="payye__sidebar">
+                    <!-- Logo -->
+                    <div class="payye__logo">
+                        <a href="#" class="payye__logo--link">
+                            <img src="img/logo/logo-white.webp" alt="logo" class="payye__logo--img">
+                        </a>
+                    </div>
+                    <!-- Divider -->
+                    <div class="sidebar__divider">
+                        &nbsp;
+                    </div>
+                    <!-- List -->
+                    <ul class="sidebar__list">
+
+                        <!-- List Elements with 03 Flex items -->
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link sidebar__link--active">
+                                <!-- Link Content -->
+                                <div class="link__content">
+                                    <div class="link__iconLeft">
+                                        <span class="link__iconLeft--icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house icon__sidebar"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                                        </span>
+                                    </div>
+                                   <div class="link__content--flex">
+                                        <div class="link__textbox">
+                                            <p class="link__textbox--text">
+                                                Dashboard
+                                            </p>
+                                        </div>
+
+                                        <!-- Dashboard Icon Dropdown -->
+                                        <!-- <div class="link__iconRight">
+                                            <span class="link__iconRight--icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down icon__chevron"><path d="m6 9 6 6 6-6"/></svg>
+                                            </span>
+                                        </div> -->
+                                   </div>
+                                </div>
+
+                            </a>
+                        </li>
+
+
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link sidebar__link--users">
+                                <!-- Link Content -->
+                                <div class="link__content">
+                                    <div class="link__iconLeft">
+                                        <span class="link__iconLeft--icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users icon__sidebar"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                                        </span>
+                                    </div>
+                                   <div class="link__content--flex">
+                                        <div class="link__textbox">
+                                            <p class="link__textbox--text">
+                                                Users
+                                            </p>
+                                        </div>
+                                        <div class="link__iconRight">
+                                            <span class="link__iconRight--icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down icon__chevron"><path d="m6 9 6 6 6-6"/></svg>
+                                            </span>
+                                        </div>
+                                   </div>
+                                </div>
+                            </a>
+
+                            <!-- Inside UL List with 02 flex elements -->
+
+                            <ul class="sidebar2__usersList">
+
+                                <!-- sidebar2__list--users -->
+                               <div class="sidebar2__list--content">
+                                    <li class="sidebar2__item">
+                                        <a href="#" class="sidebar2__link">
+                                            <div class="sidebar2__link--content">
+                                                
+                                                <div class="sidebar2__link--icon">
+                                                    <span class="sidebar2__link--icon-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users icon__sidebar"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="sidebar2__link--textbox">
+                                                    <p class="sidebar2__link--textbox-text">
+                                                        Users 1
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar2__item">
+                                        <a href="#" class="sidebar2__link">
+                                            <div class="sidebar2__link--content">
+                                                
+                                                <div class="sidebar2__link--icon">
+                                                    <span class="sidebar2__link--icon-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users icon__sidebar"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="sidebar2__link--textbox">
+                                                    <p class="sidebar2__link--textbox-text">
+                                                        Users 2
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar2__item">
+                                        <a href="#" class="sidebar2__link">
+                                            <div class="sidebar2__link--content">
+                                                
+                                                <div class="sidebar2__link--icon">
+                                                    <span class="sidebar2__link--icon-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users icon__sidebar"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="sidebar2__link--textbox">
+                                                    <p class="sidebar2__link--textbox-text">
+                                                        Users 3
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar2__item">
+                                        <a href="#" class="sidebar2__link">
+                                            <div class="sidebar2__link--content">
+                                                
+                                                <div class="sidebar2__link--icon">
+                                                    <span class="sidebar2__link--icon-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users icon__sidebar"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="sidebar2__link--textbox">
+                                                    <p class="sidebar2__link--textbox-text">
+                                                        Users 4
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                               </div>
+                            </ul>
+                            
+                        </li>
+
+
+
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link sidebar__link--profile">
+                                <!-- Link Content -->
+                                <div class="link__content">
+                                    <div class="link__iconLeft">
+                                        <span class="link__iconLeft--icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trello icon__sidebar"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><rect width="3" height="9" x="7" y="7"/><rect width="3" height="5" x="14" y="7"/></svg>
+                                        </span>
+                                    </div>
+                                   <div class="link__content--flex">
+                                        <div class="link__textbox">
+                                            <p class="link__textbox--text">
+                                                Profile
+                                            </p>
+                                        </div>
+                                        <div class="link__iconRight">
+                                            <span class="link__iconRight--icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down icon__chevron"><path d="m6 9 6 6 6-6"/></svg>
+                                            </span>
+                                        </div>
+                                   </div>
+                                </div>
+
+                            </a>
+
+
+                             <!-- Inside UL List with 02 flex elements -->
+
+                             <ul class="sidebar2__profileList">
+
+                                
+                               <div class="sidebar2__list--content">
+                                    <li class="sidebar2__item">
+                                        <a href="#" class="sidebar2__link">
+                                            <div class="sidebar2__link--content">
+                                                
+                                                <div class="sidebar2__link--icon">
+                                                    <span class="sidebar2__link--icon-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trello icon__sidebar"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><rect width="3" height="9" x="7" y="7"/><rect width="3" height="5" x="14" y="7"/></svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="sidebar2__link--textbox">
+                                                    <p class="sidebar2__link--textbox-text">
+                                                        Profile 1
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar2__item">
+                                        <a href="#" class="sidebar2__link">
+                                            <div class="sidebar2__link--content">
+                                                
+                                                <div class="sidebar2__link--icon">
+                                                    <span class="sidebar2__link--icon-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trello icon__sidebar"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><rect width="3" height="9" x="7" y="7"/><rect width="3" height="5" x="14" y="7"/></svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="sidebar2__link--textbox">
+                                                    <p class="sidebar2__link--textbox-text">
+                                                        Profile 2
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar2__item">
+                                        <a href="#" class="sidebar2__link">
+                                            <div class="sidebar2__link--content">
+                                                
+                                                <div class="sidebar2__link--icon">
+                                                    <span class="sidebar2__link--icon-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trello icon__sidebar"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><rect width="3" height="9" x="7" y="7"/><rect width="3" height="5" x="14" y="7"/></svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="sidebar2__link--textbox">
+                                                    <p class="sidebar2__link--textbox-text">
+                                                        Profile 3
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar2__item">
+                                        <a href="#" class="sidebar2__link">
+                                            <div class="sidebar2__link--content">
+                                                
+                                                <div class="sidebar2__link--icon">
+                                                    <span class="sidebar2__link--icon-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trello icon__sidebar"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><rect width="3" height="9" x="7" y="7"/><rect width="3" height="5" x="14" y="7"/></svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="sidebar2__link--textbox">
+                                                    <p class="sidebar2__link--textbox-text">
+                                                        Profile 4
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                               </div>
+                            </ul>
+                        </li>
+
+
+
+                        <!-- List Elements with 03 Flex items -->
+                        <li class="sidebar__item">
+                            <a href="#" class="sidebar__link">
+                                <!-- Link Content -->
+                                <div class="link__content">
+                                    <div class="link__iconLeft">
+                                        <span class="link__iconLeft--icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-contact icon__sidebar"><path d="M17 18a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2"/><rect width="18" height="18" x="3" y="4" rx="2"/><circle cx="12" cy="10" r="2"/><line x1="8" x2="8" y1="2" y2="4"/><line x1="16" x2="16" y1="2" y2="4"/></svg>
+                                        </span>
+                                    </div>
+                                   <div class="link__content--flex">
+                                        <div class="link__textbox">
+                                            <p class="link__textbox--text">
+                                                Contacts
+                                            </p>
+                                        </div>
+                                        <!-- Contacts Icon Dropdown -->
+                                        <!-- <div class="link__iconRight">
+                                            <span class="link__iconRight--icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down icon__chevron"><path d="m6 9 6 6 6-6"/></svg>
+                                            </span>
+                                        </div> -->
+                                   </div>
+                                </div>
+
+                            </a>
+                        </li>
+
+
+                         <!-- List Elements with 03 Flex items -->
+                         <li class="sidebar__item">
+                            <a href="#" class="sidebar__link">
+                                <!-- Link Content -->
+                                <div class="link__content">
+                                    <div class="link__iconLeft">
+                                        <span class="link__iconLeft--icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-letter-text icon__sidebar"><path d="M15 12h6"/><path d="M15 6h6"/><path d="m3 13 3.553-7.724a.5.5 0 0 1 .894 0L11 13"/><path d="M3 18h18"/><path d="M4 11h6"/></svg>
+                                        </span>
+                                    </div>
+                                   <div class="link__content--flex">
+                                        <div class="link__textbox">
+                                            <p class="link__textbox--text">
+                                                Letters
+                                            </p>
+                                        </div>
+                                        <!-- Letters icon dropdown -->
+                                        <!-- <div class="link__iconRight">
+                                            <span class="link__iconRight--icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down icon__chevron"><path d="m6 9 6 6 6-6"/></svg>
+                                            </span>
+                                        </div> -->
+                                   </div>
+                                </div>
+
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!-- Sidebar Ends Here -->
+
+                
+               
+                    <div class="payye__main">
+                        <div class="payye__main--row">
+
+                            <!-- Header Starts -->
+                            <div class="payye__header">
+                                <div class="payye__header--content">
+                                    <!-- Breadcrumb -->
+                                    <div class="payye__breadcrumb">
+                                        <p class="payye__breadcrumb--text">
+                                            <a href="#" class="payye__breadcrumb--link payye__breadcrumb--link-active">Application</a>
+                                            <span class="payye__breadcrumb--icon">
+                                                <i class="ri-arrow-right-s-line payye__breadcrumb--icon-icon"></i>
+                                            </span>
+                                        </p>
+                                        <p class="payye__breadcrumb--text">
+                                            <a href="#" class="payye__breadcrumb--link">Dashboard</a>
+                                        </p>
+                                    </div>
+
+                                    <!-- Search and Notification -->
+                                    <div class="payye__searchBox">
+                                        <div class="payye__search">
+                                            <input type="search" name="search" id="search" class="payye__search--input" placeholder="Search...">
+                                            <i class="ri-search-line payye__search--icon"></i>
+                                        </div>
+                                        <div class="payye__notify">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell payye__notify--icon icon__notify"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Header Ends -->
+
+                                <div class="payye__dashboard">
+                                        <!-- Main Content Area of Dashboard -->
+                                    <div class="payye__area">
+                                        <div class="payye__area--heading">
+                                            <div class="payye__area--heading-content">
+                                                <h2 class="payye__area--heading-text">
+                                                    General Report
+                                                </h2>
+                                                <div class="payye__area--heading-reload">
+                                                    <i class="ri-loop-left-line payye__area--heading-reload-icon"></i>
+                                                    <p class="payye__area--heading-reload-text">
+                                                        Reload Data
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Section General Reports -->
+                                        <div class="general">
+                                            <div class="general__content">
+                                                <div class="general__box">
+
+                                                    <div class="general__icons">
+                                                        <div class="general__icons--photo">
+                                                            
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart color-primary icon__general"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+
+
+                                                        </div>
+                                                        <div class="general__icons--percentage general__icons--percentage-1 background-green">
+                                                            <p class="general__icons--percentage-number">
+                                                                33%
+                                                            </p>
+                                                            <i class="ri-arrow-up-s-line icon__triangle icon__triangle--up"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="general__sales">
+                                                        <p class="general__sales--number">
+                                                            4.710
+                                                        </p>
+                                                    </div>
+                                                    <div class="general__textbox">
+                                                        <p class="general__textbox--text">
+                                                            Item Sales
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                                <div class="general__box">
+
+                                                    <div class="general__icons">
+                                                        <div class="general__icons--photo">
+                                                            
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card color-orange icon__general"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+
+
+                                                        </div>
+                                                        <div class="general__icons--percentage general__icons--percentage-2 background-red">
+                                                            <p class="general__icons--percentage-number">
+                                                                2%
+                                                            </p>
+                                                            <i class="ri-arrow-down-s-line icon__triangle icon__triangle--down"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="general__sales">
+                                                        <p class="general__sales--number">
+                                                            3.721
+                                                        </p>
+                                                    </div>
+                                                    <div class="general__textbox">
+                                                        <p class="general__textbox--text">
+                                                            New Orders
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                                <div class="general__box">
+
+                                                    <div class="general__icons">
+                                                        <div class="general__icons--photo">
+                                                            
+
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor color-yellow-light icon__general"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+
+
+                                                        </div>
+                                                        <div class="general__icons--percentage general__icons--percentage-3 background-green">
+                                                            <p class="general__icons--percentage-number">
+                                                                12%
+                                                            </p>
+                                                            <i class="ri-arrow-up-s-line icon__triangle icon__triangle--up"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="general__sales">
+                                                        <p class="general__sales--number">
+                                                            2.149
+                                                        </p>
+                                                    </div>
+                                                    <div class="general__textbox">
+                                                        <p class="general__textbox--text">
+                                                            Total Products
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                                <div class="general__box">
+
+                                                    <div class="general__icons">
+                                                        <div class="general__icons--photo">
+                                                           
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user color-green icon__general"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+
+
+                                                        </div>
+                                                        <div class="general__icons--percentage general__icons--percentage-4 background-green">
+                                                            <p class="general__icons--percentage-number">
+                                                                22%
+                                                            </p>
+                                                            <i class="ri-arrow-up-s-line icon__triangle icon__triangle--up"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="general__sales">
+                                                        <p class="general__sales--number">
+                                                            152.040
+                                                        </p>
+                                                    </div>
+                                                    <div class="general__textbox">
+                                                        <p class="general__textbox--text">
+                                                            Unique Visitors
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Section General Report Ends -->
+
+                                        <!-- Section Sales Report Starts -->
+
+                                        <div class="salesReport">
+                                            <div class="sales">
+                                                <div class="sales__content sales__content--1">
+                                                    <div class="payye__area--heading-content payye__area--heading-content-calendar section-padding">
+                                                        <h2 class="payye__area--heading-text">
+                                                            Sales Report
+                                                        </h2>
+                                                       
+                                                        <div class="sales__calendar">
+
+                                                            <div class="sales__calendar--input">
+                                                                <input id="e1" name="e1">
+                                                            </div>
+                                                                
+                                                        </div>
+
+                                                    </div>
+                                                    
+
+                                                    <div class="payye__line--chart">
+                                                        <div class="lineChart">
+                                                            <div class="lineChart__content">
+
+                                                               <div class="lineChart__textbox">
+                                                                    <div class="lineChart__textbox--1">
+                                                                        <p class="lineChart__revenue lineChart__revenue--blue">
+                                                                            £15,000
+                                                                        </p>
+                                                                        <p class="lineChart__month">
+                                                                            This Month
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="lineChart__textbox--border">
+                                                                        &nbsp;
+                                                                    </div>
+                                                                    <div class="lineChart__textbox--2">
+                                                                        <p class="lineChart__revenue">
+                                                                            £10,000
+                                                                        </p>
+                                                                        <p class="lineChart__month">
+                                                                            Last Month
+                                                                        </p>
+                                                                    </div>
+                                                               </div>
+
+                                                                <div class="lineChart__category">
+                                                                    <div class="lineChart__category--content">
+                                                                        
+                                                                        <div id="dropdown-wrapper" class="dropdown-wrapper">
+                                                                            <span class="dropdown__span">Filter by Category</span>
+                                                                        
+                                                                            <ul class="dropdown-list">
+                                                                                <li><a href="#" data-profile="1">PC & Laptop</a></li>
+                                                                                <li><a href="#" data-profile="2">Smartphone</a></li>
+                                                                                <li><a href="#" data-profile="3">Electronic</a></li>
+                                                                                <li><a href="#" data-profile="4">Photography</a></li>
+                                                                                <li><a href="#" data-profile="5">Sports</a></li>
+                                                                                <li><a href="#" data-profile="3">Electronic</a></li>
+                                                                                <li><a href="#" data-profile="4">Photography</a></li>
+                                                                                <li><a href="#" data-profile="5">Sports</a></li>
+                                                                                
+                                                                            </ul>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Line Chart Canvas -->
+                                                         <div class="payye__line--chart-canvas">
+                                                             <canvas id="report-line-chart" class="report-line-chart"></canvas>
+                                                         </div>
+                                                    </div>
+
+                                                </div>
+                                               
+    
+                                                <div class="sales__content sales__content--2">
+                                                    <div class="payye__area--heading-content section-padding payye__area--heading-content-pie">
+                                                        <h2 class="payye__area--heading-text">
+                                                            Weekly Top
+                                                        </h2>
+                                                        <div class="payye__area--heading-reload">
+                                                            <p class="payye__area--heading-reload-text">
+                                                                Show More
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    
+
+
+                                                    <div class="sales__pieChart">
+                                                        <div class="payye__pie--chart">
+                                                            <!-- Pie Chart Canvas -->
+                                                            <canvas id="report-pie-chart" class="report-pie-chart"></canvas>
+                                                        </div>
+    
+                                                        <!-- Pie Chart Content -->
+                                                        <div class="payye__pie--chart-content">
+                                                            <div class="payye__pie--chart-value">
+                                                                                                                               
+                                                                <div class="payye__pie--chart-textbox">
+                                                                    <div class="payye__pie--chart-dot payye__pie--chart-dot-primary">
+                                                                        &nbsp;
+                                                                    </div>
+                                                                    <p class="payye__pie--chart-text">
+                                                                        17 - 30 Years old
+                                                                    </p>
+                                                                </div>
+
+                                                                <div class="payye__pie--chart-percentage">
+                                                                    <p class="payye__pie--chart-text-bold">
+                                                                        62%
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+    
+                                                            <div class="payye__pie--chart-value">
+                                                                                                                               
+                                                                <div class="payye__pie--chart-textbox">
+                                                                    <div class="payye__pie--chart-dot payye__pie--chart-dot-orange">
+                                                                        &nbsp;
+                                                                    </div>
+                                                                    <p class="payye__pie--chart-text">
+                                                                        31 - 50 Years old
+                                                                    </p>
+                                                                </div>
+
+                                                                <div class="payye__pie--chart-percentage">
+                                                                    <p class="payye__pie--chart-text-bold">
+                                                                        33%
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+    
+                                                            <div class="payye__pie--chart-value">
+                                                                                                                               
+                                                                <div class="payye__pie--chart-textbox">
+                                                                    <div class="payye__pie--chart-dot payye__pie--chart-dot-yellow">
+                                                                        &nbsp;
+                                                                    </div>
+                                                                    <p class="payye__pie--chart-text">
+                                                                        >= Years old
+                                                                    </p>
+                                                                </div>
+
+                                                                <div class="payye__pie--chart-percentage">
+                                                                    <p class="payye__pie--chart-text-bold">
+                                                                        10%
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+
+
+                                                         </div>
+                                                    </div>
+
+
+                                                </div>
+    
+                                                <div class="sales__content sales__content--3">
+                                                    <div class="payye__area--heading-content section-padding payye__area--heading-content-donut">
+                                                        <h2 class="payye__area--heading-text">
+                                                            Sales Report
+                                                        </h2>
+                                                        <div class="payye__area--heading-reload">
+                                                            <p class="payye__area--heading-reload-text">
+                                                                Show More
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    
+
+                                                   <div class="sales__donutChart">
+                                                    <div class="payye__donut--chart">
+                                                        <!-- Report Donut Chart Canvas -->
+                                                        <canvas id="report-donut-chart" class="report-donut-chart"></canvas>
+
+                                                        <!-- Donut Chart Content -->
+                                                    </div>
+
+                                                    <div class="payye__donut--chart-content">
+                                                        <div class="payye__pie--chart-value">
+                                                                                                                               
+                                                            <div class="payye__pie--chart-textbox">
+                                                                <div class="payye__pie--chart-dot payye__pie--chart-dot-primary">
+                                                                    &nbsp;
+                                                                </div>
+                                                                <p class="payye__pie--chart-text">
+                                                                    17 - 30 Years old
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="payye__pie--chart-percentage">
+                                                                <p class="payye__pie--chart-text-bold">
+                                                                    62%
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="payye__pie--chart-value">
+                                                                                                                               
+                                                            <div class="payye__pie--chart-textbox">
+                                                                <div class="payye__pie--chart-dot payye__pie--chart-dot-orange">
+                                                                    &nbsp;
+                                                                </div>
+                                                                <p class="payye__pie--chart-text">
+                                                                    31 - 50 Years old
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="payye__pie--chart-percentage">
+                                                                <p class="payye__pie--chart-text-bold">
+                                                                    33%
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="payye__pie--chart-value">
+                                                                                                                               
+                                                            <div class="payye__pie--chart-textbox">
+                                                                <div class="payye__pie--chart-dot payye__pie--chart-dot-yellow">
+                                                                    &nbsp;
+                                                                </div>
+                                                                <p class="payye__pie--chart-text">
+                                                                    >= Years old
+                                                                </p>
+                                                            </div>
+
+                                                            <div class="payye__pie--chart-percentage">
+                                                                <p class="payye__pie--chart-text-bold">
+                                                                    10%
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                   </div>
+
+
+                                                </div>
+                                               
+                                            </div>
+                                           
+                                            
+                                        </div>
+
+
+                                        <!-- Section Sales Report Ends -->
+
+                                        <!-- Section Targets Starts here -->
+
+                                        <div class="targets section-padding">
+                                            <div class="targets__content">
+
+                                                <!-- 1st Chart Box -->
+                                                <div class="targets__boxChart" data-aos="fade-up">
+                                                    <div class="targets__boxChart--textbox">
+                                                        <h2 class="targets__boxChart--heading">
+                                                            Target Sales
+                                                        </h2>
+                                                        <p class="targets__boxChart--para">
+                                                            300 Sales
+                                                        </p>
+                                                    </div>
+                                                    <div class="targets__percentage--content">
+                                                        <div class="targets__boxChart--chart">
+                                                            <!-- Target Donut Chart Canvas -->
+                                                            <canvas id="target-donut-chart" class="target-donut-chart"></canvas>
+                                                        </div>
+    
+                                                        <span class="targets__percentage">
+                                                            20%
+                                                        </span>
+                                                    </div>
+                                                    
+                                                </div>
+
+                                                <!-- 2nd Chart Box -->
+                                                <div class="targets__boxLine" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
+                                                    <div class="targets__boxLine--textbox">
+                                                        <h2 class="targets__boxLine--heading">
+                                                            Social Media
+                                                        </h2>
+                                                        <p class="targets__boxLine--para">
+                                                            320 Followers
+                                                        </p>
+                                                    </div>
+                                                    <div class="targets__boxLine--chart">
+                                                        <!-- Target Line Chart Canvas -->
+                                                        <canvas id="target-line-chart" class="target-line-chart"></canvas>
+                                                    </div>
+                                                </div>
+
+                                                <!-- 3rd Chart Box -->
+                                                <div class="targets__boxChart" data-aos="fade-up" data-aos-delay="200" data-aos-duration="700">
+                                                    <div class="targets__boxChart--textbox">
+                                                        <h2 class="targets__boxChart--heading">
+                                                            New Products
+                                                        </h2>
+                                                        <p class="targets__boxChart--para">
+                                                            1450 Products
+                                                        </p>
+                                                    </div>
+                                                    <div class="targets__percentage--content">
+                                                        <div class="targets__boxChart--chart">
+                                                            <!-- Target Donut Chart 2 Canvas -->
+                                                            <canvas id="target-donut-chart2" class="target-donut-chart"></canvas>
+                                                        </div>
+    
+                                                        <span class="targets__percentage">
+                                                            45%
+                                                        </span>
+                                                    </div>
+                                                    
+                                                </div>
+
+                                                <!-- 4th Chart Box -->
+                                                <div class="targets__boxLine" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                                                    <div class="targets__boxLine--textbox">
+                                                        <h2 class="targets__boxLine--heading">
+                                                            Posted Ads
+                                                        </h2>
+                                                        <p class="targets__boxLine--para">
+                                                            180 Campaigns
+                                                        </p>
+                                                    </div>
+                                                    <div class="targets__boxLine--chart">
+                                                        <!-- Target Line Chart Canvas -->
+                                                        <canvas id="target-line-chart2" class="target-line-chart"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Section Targets Ends here -->
+
+
+                                        <!-- Section Products Starts here -->
+                                         <div class="products section-padding">
+                                            <div class="products__headingBox">
+
+                                                <h2 class="products__heading">
+                                                    Weekly Top Products
+                                                </h2>
+
+                                                <div class="products__exports">
+
+                                                    <button class="products__exports--box">
+                                                        <div class="products__exports--icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text icon__file"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                                                        </div>
+                                                        <p class="products__exports--text">
+                                                            Export To Excel
+                                                        </p>
+                                                    </button>
+
+                                                    <button class="products__exports--box">
+                                                        <div class="products__exports--icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text icon__file"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                                                        </div>
+                                                        <p class="products__exports--text">
+                                                            Export To PDF
+                                                        </p>
+                                                    </button>
+
+                                                    
+                                                </div>
+
+                                            </div>
+
+                                            <!-- Products Content -->
+                                             <div class="products__content">
+
+                                                <div class="products__content--heading">
+                                                    <p class="products__content--heading-text">
+                                                        images
+                                                    </p>
+                                                    <p class="products__content--heading-text">
+                                                        product name
+                                                    </p>
+                                                    <p class="products__content--heading-text">
+                                                        stock
+                                                    </p>
+                                                    <p class="products__content--heading-text">
+                                                        status
+                                                    </p>
+                                                    <p class="products__content--heading-text">
+                                                        &nbsp;
+                                                    </p>
+                                                    <p class="products__content--heading-text products__content--heading-text-center">
+                                                        actions
+                                                    </p>
+                                                </div>
+
+                                                <div class="products__list">
+
+                                                    <div class="products__list--photos">
+                                                        <div class="products__list--photos-box products__list--photos-box-1 products__user--1">
+                                                            <img src="img/photo/girl4.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                        <div class="products__list--photos-box products__list--photos-box-2 products__user--2">
+                                                            <img src="img/photo/girl5.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                        <div class="products__list--photos-box products__list--photos-box-3 products__user--3">
+                                                            <img src="img/photo/boy3.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="products__list--name">
+                                                        <p class="products__list--name-text">
+                                                            Samsung Galaxy S20 Ultra
+                                                        </p>
+                                                        <p class="products__list--name-cat">
+                                                            Smartphone & Tablet
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="products__list--stock">
+                                                        <p class="products__list--stock-text">
+                                                            204
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="products__list--status color-green">
+                                                        <div class="products__list--status-icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big icon__check"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                                        </div>
+                                                        <div class="products__list--status-text">
+                                                            Active
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="products__list--border">
+                                                        &nbsp;
+                                                    </div>
+
+                                                    <div class="products__list--actions">
+
+                                                        <div class="products__list--edit">
+                                                            <div class="products__list--edit-icon">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big icon__check"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                                            </div>
+                                                            <p class="products__list--edit-text">
+                                                                Edit
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="products__list--delete color-red">
+                                                            <div class="products__list--delete-icon">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash icon__trash"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+                                                            </div>
+                                                            <p class="products__list--delete-text">
+                                                                Delete
+                                                            </p>
+                                                        </div>
+
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="products__list" >
+
+                                                    <div class="products__list--photos">
+                                                        <div class="products__list--photos-box products__list--photos-box-1 products__user--4">
+                                                            <img src="img/photo/girl6.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                        <div class="products__list--photos-box products__list--photos-box-2 products__user--5">
+                                                            <img src="img/photo/girl1.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                        <div class="products__list--photos-box products__list--photos-box-3 products__user--6">
+                                                            <img src="img/photo/boy1.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="products__list--name">
+                                                        <p class="products__list--name-text">
+                                                            Oppo Find X2 Pro
+                                                        </p>
+                                                        <p class="products__list--name-cat">
+                                                            Smartphone & Tablet
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="products__list--stock">
+                                                        <p class="products__list--stock-text">
+                                                            97
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="products__list--status color-red">
+                                                        <div class="products__list--status-icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big icon__check"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                                        </div>
+                                                        <div class="products__list--status-text">
+                                                            Inactive
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="products__list--border">
+                                                        &nbsp;
+                                                    </div>
+
+                                                    <div class="products__list--actions">
+
+                                                        <div class="products__list--edit">
+                                                            <div class="products__list--edit-icon">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big icon__check"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                                            </div>
+                                                            <p class="products__list--edit-text">
+                                                                Edit
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="products__list--delete color-red">
+                                                            <div class="products__list--delete-icon">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash icon__trash"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+                                                            </div>
+                                                            <p class="products__list--delete-text">
+                                                                Delete
+                                                            </p>
+                                                        </div>
+
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="products__list">
+
+                                                    <div class="products__list--photos">
+                                                        <div class="products__list--photos-box products__list--photos-box-1 products__user--7">
+                                                            <img src="img/photo/boy2.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                        <div class="products__list--photos-box products__list--photos-box-2 products__user--8">
+                                                            <img src="img/photo/girl2.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                        <div class="products__list--photos-box products__list--photos-box-3 products__user--9">
+                                                            <img src="img/photo/girl3.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="products__list--name">
+                                                        <p class="products__list--name-text">
+                                                            Samsung Galaxy S20 Ultra
+                                                        </p>
+                                                        <p class="products__list--name-cat">
+                                                            Smartphone & Tablet
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="products__list--stock">
+                                                        <p class="products__list--stock-text">
+                                                            123
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="products__list--status color-green">
+                                                        <div class="products__list--status-icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big icon__check"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                                        </div>
+                                                        <div class="products__list--status-text">
+                                                            Active
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="products__list--border">
+                                                        &nbsp;
+                                                    </div>
+
+                                                    <div class="products__list--actions">
+
+                                                        <div class="products__list--edit">
+                                                            <div class="products__list--edit-icon">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big icon__check"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                                            </div>
+                                                            <p class="products__list--edit-text">
+                                                                Edit
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="products__list--delete color-red">
+                                                            <div class="products__list--delete-icon">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash icon__trash"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+                                                            </div>
+                                                            <p class="products__list--delete-text">
+                                                                Delete
+                                                            </p>
+                                                        </div>
+
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="products__list">
+
+                                                    <div class="products__list--photos">
+                                                        <div class="products__list--photos-box products__list--photos-box-1 products__user--10">
+                                                            <img src="img/photo/boy3.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                        <div class="products__list--photos-box products__list--photos-box-2 products__user--11">
+                                                            <img src="img/photo/girl4.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                        <div class="products__list--photos-box products__list--photos-box-3 products__user--12">
+                                                            <img src="img/photo/girl5.jpg" alt="user" class="products__list--img">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="products__list--name">
+                                                        <p class="products__list--name-text">
+                                                            Dell XPS 13
+                                                        </p>
+                                                        <p class="products__list--name-cat">
+                                                            PC & Laptop
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="products__list--stock">
+                                                        <p class="products__list--stock-text">
+                                                            50
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="products__list--status color-red">
+                                                        <div class="products__list--status-icon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big icon__check"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                                        </div>
+                                                        <div class="products__list--status-text">
+                                                            Inactive
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="products__list--border">
+                                                        &nbsp;
+                                                    </div>
+
+                                                    <div class="products__list--actions">
+
+                                                        <div class="products__list--edit">
+                                                            <div class="products__list--edit-icon">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big icon__check"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                                            </div>
+                                                            <p class="products__list--edit-text">
+                                                                Edit
+                                                            </p>
+                                                        </div>
+
+                                                        <div class="products__list--delete color-red">
+                                                            <div class="products__list--delete-icon">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash icon__trash"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+                                                            </div>
+                                                            <p class="products__list--delete-text">
+                                                                Delete
+                                                            </p>
+                                                        </div>
+
+
+                                                    </div>
+
+                                                </div>
+
+                                             </div>
+                                         </div>
+
+                                        <!-- Section Products Ends here -->
+                                    </div>
+
+                                    <!-- Right Sidebar of Dashboard -->
+                                    <div class="payye__rightbar">
+                                        <div class="payye__transactions">
+                                            <div class="payye__rightbar--heading">
+                                                <h2 class="payye__rightbar--heading-text">
+                                                    Transactions
+                                                </h2>
+                                            </div>
+    
+                                            <!-- Transactions Starts -->
+                                            <div class="transactions">
+    
+                                                <div class="transactions__box">
+    
+                                                    <div class="transactions__photo">
+                                                        <img src="img/photo/girl1.jpg" alt="girl" class="transactions__photo--img">
+                                                    </div>
+    
+                                                    <div class="transactions__textbox">
+                                                        <h3 class="transactions__textbox--name">
+                                                            Al Pacino
+                                                        </h3>
+    
+                                                        <p class="transactions__textbox--date">
+                                                            7 December 2023
+                                                        </p>
+                                                    </div>
+    
+                                                    <div class="transactions__amount color-light-green">
+                                                        <p class="transactions__amount--text">
+                                                            +£92
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+    
+                                                <div class="transactions__box">
+    
+                                                    <div class="transactions__photo">
+                                                        <img src="img/photo/boy1.jpg" alt="boy" class="transactions__photo--img">
+                                                    </div>
+    
+                                                    <div class="transactions__textbox">
+                                                        <h3 class="transactions__textbox--name">
+                                                            Denzel Washington
+                                                        </h3>
+    
+                                                        <p class="transactions__textbox--date">
+                                                            14 October 2023
+                                                        </p>
+                                                    </div>
+    
+                                                    <div class="transactions__amount color-light-red">
+                                                        <p class="transactions__amount--text">
+                                                            -£94
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+    
+                                                <div class="transactions__box">
+    
+                                                    <div class="transactions__photo">
+                                                        <img src="img/photo/girl3.jpg" alt="girl" class="transactions__photo--img">
+                                                    </div>
+    
+                                                    <div class="transactions__textbox">
+                                                        <h3 class="transactions__textbox--name">
+                                                            Denzel Washington
+                                                        </h3>
+    
+                                                        <p class="transactions__textbox--date">
+                                                            13 October 2022
+                                                        </p>
+                                                    </div>
+    
+                                                    <div class="transactions__amount color-light-green">
+                                                        <p class="transactions__amount--text">
+                                                            +£31
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+    
+    
+                                                <div class="transactions__box">
+    
+                                                    <div class="transactions__photo">
+                                                        <img src="img/photo/girl4.jpg" alt="girl" class="transactions__photo--img">
+                                                    </div>
+    
+                                                    <div class="transactions__textbox">
+                                                        <h3 class="transactions__textbox--name">
+                                                            Robert De Niro
+                                                        </h3>
+    
+                                                        <p class="transactions__textbox--date">
+                                                            7 August 2022
+                                                        </p>
+                                                    </div>
+    
+                                                    <div class="transactions__amount color-light-red">
+                                                        <p class="transactions__amount--text">
+                                                            -£57
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+    
+    
+                                                <div class="transactions__box">
+    
+                                                    <div class="transactions__photo">
+                                                        <img src="img/photo/boy2.jpg" alt="boy" class="transactions__photo--img">
+                                                    </div>
+    
+                                                    <div class="transactions__textbox">
+                                                        <h3 class="transactions__textbox--name">
+                                                            Robert De Niro
+                                                        </h3>
+    
+                                                        <p class="transactions__textbox--date">
+                                                            25 May 2021
+                                                        </p>
+                                                    </div>
+    
+                                                    <div class="transactions__amount color-light-green">
+                                                        <p class="transactions__amount--text">
+                                                            +£74
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+    
+                                                <a href="#" class="btn btn__viewMore">View More</a>
+    
+    
+                                            </div>
+                                        </div>
+
+                                        <!-- Transactions Ends -->
+
+                                        <!-- Notes Starts -->
+                                         <div class="notes">
+                                            <div class="notes__top">
+                                                <div class="notes__heading">
+                                                    <h2 class="notes__heading--text">
+                                                        Important Notes
+                                                    </h2>
+                                                </div>
+                                                <div class="notes__nav">
+                                                    <div class="notes__nav--left">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left icon__chevronLeft"><path d="m15 18-6-6 6-6"/></svg>
+                                                    </div>
+                                                    <div class="notes__nav--right">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right icon__chevronRight"><path d="m9 18 6-6-6-6"/></svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="notes__content">
+                                               
+                                                 <!-- Swiper -->
+                                                <!-- Slider main container -->
+                                                <div class="swiper">
+                                                    <!-- Additional required wrapper -->
+                                                    <div class="swiper-wrapper">
+                                                    <!-- Slides -->
+
+                                                    <div class="swiper-slide notes__slide">
+
+                                                        <div class="notes__slide--heading">
+                                                            <h3 class="notes__slide--heading-text">
+                                                                Lorem Ipsum is simply dummy text
+                                                            </h3>
+                                                        </div>
+                                                        <div class="notes__slide--time">
+                                                            <div class="notes__slide--time-text">
+                                                                20 Hours ago
+                                                            </div>
+                                                        </div>
+                                                        <div class="notes__slide--para">
+                                                            <p class="notes__slide--para-text">
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                                            </p>
+                                                        </div>
+                                                        <div class="notes__slide--buttons">
+                                                            <button class="notes__slide--buttons-view">
+                                                                View Notes
+                                                            </button>
+                                                            <button class="notes__slide--buttons-dismiss">
+                                                                Dismiss
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                    <div class="swiper-slide notes__slide">
+
+                                                        <div class="notes__slide--heading">
+                                                            <h3 class="notes__slide--heading-text">
+                                                                Lorem Ipsum is simply dummy text
+                                                            </h3>
+                                                        </div>
+                                                        <div class="notes__slide--time">
+                                                            <div class="notes__slide--time-text">
+                                                                20 Hours ago
+                                                            </div>
+                                                        </div>
+                                                        <div class="notes__slide--para">
+                                                            <p class="notes__slide--para-text">
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                                            </p>
+                                                        </div>
+                                                        <div class="notes__slide--buttons">
+                                                            <button class="notes__slide--buttons-view">
+                                                                View Notes
+                                                            </button>
+                                                            <button class="notes__slide--buttons-dismiss">
+                                                                Dismiss
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="swiper-slide notes__slide">
+
+                                                        <div class="notes__slide--heading">
+                                                            <h3 class="notes__slide--heading-text">
+                                                                Lorem Ipsum is simply dummy text
+                                                            </h3>
+                                                        </div>
+                                                        <div class="notes__slide--time">
+                                                            <div class="notes__slide--time-text">
+                                                                20 Hours ago
+                                                            </div>
+                                                        </div>
+                                                        <div class="notes__slide--para">
+                                                            <p class="notes__slide--para-text">
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                                            </p>
+                                                        </div>
+                                                        <div class="notes__slide--buttons">
+                                                            <button class="notes__slide--buttons-view">
+                                                                View Notes
+                                                            </button>
+                                                            <button class="notes__slide--buttons-dismiss">
+                                                                Dismiss
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="swiper-slide notes__slide">
+
+                                                        <div class="notes__slide--heading">
+                                                            <h3 class="notes__slide--heading-text">
+                                                                Lorem Ipsum is simply dummy text
+                                                            </h3>
+                                                        </div>
+                                                        <div class="notes__slide--time">
+                                                            <div class="notes__slide--time-text">
+                                                                20 Hours ago
+                                                            </div>
+                                                        </div>
+                                                        <div class="notes__slide--para">
+                                                            <p class="notes__slide--para-text">
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                                            </p>
+                                                        </div>
+                                                        <div class="notes__slide--buttons">
+                                                            <button class="notes__slide--buttons-view">
+                                                                View Notes
+                                                            </button>
+                                                            <button class="notes__slide--buttons-dismiss">
+                                                                Dismiss
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                    </div>                                               
+                                                    
+                                                </div>
+
+
+                                            </div>
+                                         </div>
+                                        <!-- Notes Ends -->
+
+
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                
+
+            </div>
+        </div>
+       
+   </main>
+
+
+    <!--============ Main JavaScript File Link ========= -->
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tippy JS CDN Link -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+    <!-- Jquery CDN Link -->
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <!-- Juqery UI -->
+    <script src="js/daterange/jquery-ui.min.js"></script>
+
+    <!-- Moment.js -->
+    <script src="js/daterange/moment.min.js"></script>
+
+    <!-- Date Range Picker -->
+    <script src="js/daterange/jquery.comiseo.daterangepicker.js"></script>
+
+    <!-- Chart.js CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Swiper JS CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS CDN Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    
+    <!-- Our Main JS file -->
+    <script src="js/script.js"></script>
+</body>
+</html>
